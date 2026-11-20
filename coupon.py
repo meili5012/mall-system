@@ -4,3 +4,6 @@ def calculate_discount(price, discount):
     if discount < 0 or discount > 100:
         return price
     return price * (1 - discount / 100)
+
+
+print(calculate_discount(100, 20))
